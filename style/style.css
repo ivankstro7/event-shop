@@ -11,11 +11,12 @@ html{
 .header .navbar {
     margin-top: 48px;
     border-radius: 36px;
-    padding: 10px 24px;
+    padding: 8px 24px;
+    height: 60px;
 }
 
 .header .navbar .container-fluid .navbar-brand{
-    width: 100px;
+    width: 75px;
 }
 
 .header .navbar .container-fluid .navbar-brand img{
