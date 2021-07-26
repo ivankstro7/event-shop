@@ -8,6 +8,9 @@ html{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.header{}
+
+
 .header .navbar {
     margin-top: 48px;
     border-radius: 36px;
