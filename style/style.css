@@ -13,3 +13,11 @@ html{
     border-radius: 36px;
     padding: 10px 24px;
 }
+
+.header .navbar .container-fluid .navbar-brand{
+    width: 100px;
+}
+
+.header .navbar .container-fluid .navbar-brand img{
+    width: 100%;
+}
