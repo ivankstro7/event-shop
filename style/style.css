@@ -46,3 +46,7 @@ body{
     top: 0;
     z-index: -1;
 }
+
+.carrousel-container .carousel-inner{
+    height: 100vh;
+}
