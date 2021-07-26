@@ -4,12 +4,17 @@
     padding: 0;
 }
 
-html{
+body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.header{
-    background-image: url();
+.header .background-container{
+    background-image: url(/assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
 }
 
 .header .navbar {
@@ -26,3 +31,9 @@ html{
 .header .navbar .container-fluid .navbar-brand img{
     width: 100%;
 }
+
+.header .navbar .container-fluid .collapse a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
