@@ -124,48 +124,78 @@ body{
     letter-spacing: 5px;
 }
 
+.challenges-container .card-container{
+    background-image: url(/assets/images/retos/ants.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.challenges-container .card-container--eagle{
+    background-image: url(/assets/images/retos/eagle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.challenges-container .card-container:hover, .card-container--eagle:hover{
+    background-image: none;
+    background-color: #C9FF00;
+}
+
 .challenges-container .card{
     border: none;
     margin-bottom: 36px;
-}
-
-.challenges-container .card-body{
-    width: 451px;
+    max-width: 451px;
     height: 505px;
     padding: 36px 24px;
-    background-color: #D0FF33;
+    background-color: transparent;
 }
 
-.challenges-container .card-body h5{
+.challenges-container .card .card-body{
+    opacity: 0;
+}
+
+.challenges-container .card .card-body:hover{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.challenges-container .card .card-body .badges .bg-primary{
+    background-color: #C9FF00!important;
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.challenges-container .card .card-body h2{
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.challenges-container .card .card-body p{
     margin-bottom: 32px;
 }
 
-.challenges-container .card-body p{
-    margin-bottom: 32px;
-}
-
-.challenges-container .card-body .btn{
+.challenges-container .card .card-body .btn{
     color: var(--primary-color);
 }
 
-.challenges-container .card-body .btn-primary{
+.challenges-container .card .card-body .btn-primary{
     border-radius: 4px;
     background-color: var(--background-color);
     border-color: var(--background-color);
     font-weight: 600;
     text-transform: uppercase;
+    width: auto;
+    margin: 0 auto;
 }
 
-
-/*.challenges-container .card-body:hover{
-    position: relative;
-    display: block;
-    width: 451px;
-    height: 505px;
-    background-color: #D0FF33;
-}*/
+.challenges-container .card-body img{
+    width: 50%;
+    margin: auto;
+}
 
 /* challenges */
