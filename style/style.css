@@ -1,3 +1,9 @@
+:root{
+    /*Colores*/
+    --background-color: #1b1b1b;
+    --primary-color: #C9FF00;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,8 +14,9 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* menu */
 .header{
-    height: 100vh;
+    height: 93vh;
 }
 
 .header .navbar {
@@ -35,21 +42,62 @@ body{
 } 
 
 .header .navbar .container-fluid .collapse .btn{
-    color: #FFCC00;
+    color: var(--primary-color);
 } 
 
 
 .header .navbar .container-fluid .collapse .btn-primary{
-    border-radius: 8px;
-    background-color: #1b1b1b;
-    border-color: #1b1b1b;
+    border-radius: 4px;
+    background-color: var(--background-color);
+    border-color: var(--background-color);
 } 
 
+.header .navbar .container-fluid .collapse .btn-outline-primary{
+    margin-right: 8px;
+    border-radius: 4px;
+    border-color: #1b1b1b;
+    color: #1b1b1b;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
+
+.btn-outline-primary:hover{
+    background-color: var(--primary-color);
+}
+
+/* menu */
+
+/* carousel */
 .carrousel-container{
     position: absolute;
     top: 0;
     z-index: -1;
     width: 100%;
+}
+
+.carrousel-container .carousel-caption {
+    padding-bottom: 8rem;
+    left: 0;
+}
+
+.carrousel-container .carousel-caption .btn {
+    color: var(--primary-color);
+}
+
+.carrousel-container .carousel-caption .btn-primary {
+    border-radius: 4px;
+    background-color: var(--background-color);
+    border-color: var(--background-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.carrousel-container .carousel-caption .btn-outline-primary{
+    border-color: #fff;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 8px;
 }
 
 .carrousel-container .carousel-inner{
@@ -60,28 +108,4 @@ body{
     max-height: 100vh;
     object-fit: cover;
 }
-
-#carousel{
-    position: relative;
-}
-
-.carrousel-container .carousel-inner .overlay{
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    color: #fff;
-}
-
-.carrousel-container .carousel-inner .overlay .overlay--title{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(17, 1fr);
-}
-
-.carrousel-container .carousel-inner .overlay .overlay--title h1{
-    font-size: 1.6rem;
-    text-align: end;
-    grid-column: 4 / 9;
-    grid-row: 12 / 12;
-}
+/* carousel */
