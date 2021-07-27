@@ -68,4 +68,20 @@ body{
 .carrousel-container .carousel-inner .overlay{
     position: absolute;
     z-index: 1;
+    width: 100%;
+    color: #fff;
+}
+
+.carrousel-container .carousel-inner .overlay .overlay--title{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+}
+
+.carrousel-container .carousel-inner .overlay .overlay--title h1{
+    font-size: 1.6rem;
+    text-align: end;
+    grid-column: 4 / 9;
+    grid-row: 12 / 12;
 }
