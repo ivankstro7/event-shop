@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#contact-form-container">Contactanos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="btn btn-primary" href="#" role="button">Inscribite</a>
+                    <a class="btn btn-primary" href="#exampleModal" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscribite</a>
                   </li>                  
                 </ul>
               </div>
@@ -50,7 +50,7 @@
               <div class="carousel-caption d-none d-md-block offset-md-2 col-md-5">
                 <h2>14 de noviembre de 2021</h2>
                 <button type="button" class="btn btn-outline-primary">Detalle del evento</button>
-                <button type="button" class="btn btn-primary">Inscríbete</button>
+                <a class="btn btn-primary" href="#exampleModal" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscribite</a>
               </div>
             </div>
             <div class="carousel-item">
@@ -191,6 +191,53 @@
         </section>
       </main>
       
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Formulario de registro</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" placeholder="Ingresar nombre">
+                    <label for="floatingInputGrid">Nombre</label>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-floating">
+                    <input  type="text" class="form-control" placeholder="Ingresar apellidos">
+                    <label for="floatingInputGrid">Apellidos</label>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                  <form class="form-floating">
+                    <input type="email" class="form-control" placeholder="name@example.com" value="">
+                    <label for="floatingInputValue">Ingresa tu email</label>
+                  </form>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected>Seleccionar reto</option>
+                      <option value="1">Reto Hormiga</option>
+                      <option value="2">Reto Condor</option>
+                    </select>
+                    <label for="floatingSelectGrid">Works with selects</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Inscribirme</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
