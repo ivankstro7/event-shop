@@ -20,11 +20,12 @@ body{
 }
 
 .header .navbar {
-    margin-top: 48px;
+    margin-top: 24px;
     border-radius: 8px;
     padding: 8px 12px;
     height: 60px;
     box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 40%);
+    position: fixed;
 }
 
 .header .navbar .container-fluid .navbar-brand{
@@ -51,44 +52,30 @@ body{
     background-color: var(--background-color);
     border-color: var(--background-color);
 } 
-
-.header .navbar .container-fluid .collapse .btn-outline-primary{
-    margin-right: 8px;
-    border-radius: 4px;
-    border-color: #1b1b1b;
-    color: #1b1b1b;
-    font-weight: 600;
-    text-transform: uppercase;
-} 
-
-.btn-outline-primary:hover{
-    background-color: var(--primary-color);
-}
-
 /* menu */
 
 /* carousel */
-.carrousel-container{
+#carrousel-container{
     position: absolute;
     top: 0;
     z-index: -1;
     width: 100%;
 }
 
-.carrousel-container .carousel-caption {
+#carrousel-container .carousel-caption {
     padding-bottom: 8rem;
     left: 0;
 }
 
-.carrousel-container .carousel-caption h2{
+#carrousel-container .carousel-caption h2{
     color: #fff;
 }
 
-.carrousel-container .carousel-caption .btn {
+#carrousel-container .carousel-caption .btn {
     color: var(--primary-color);
 }
 
-.carrousel-container .carousel-caption .btn-primary {
+#carrousel-container .carousel-caption .btn-primary {
     border-radius: 4px;
     background-color: var(--background-color);
     border-color: var(--background-color);
@@ -96,7 +83,7 @@ body{
     text-transform: uppercase;
 }
 
-.carrousel-container .carousel-caption .btn-outline-primary{
+#carrousel-container .carousel-caption .btn-outline-primary{
     border-color: #fff;
     color: #fff;
     font-weight: 600;
@@ -104,47 +91,52 @@ body{
     margin-right: 8px;
 }
 
-.carrousel-container .carousel-inner{
+#carrousel-container .carousel-inner{
     height: 100vh;
 }
 
-.carrousel-container .carousel-inner img{
+#carrousel-container .carousel-inner img{
     max-height: 100vh;
     object-fit: cover;
 }
 /* carousel */
 
 /* challenges */
-.challenges-container{
+#challenges-container{
     width: 100%;
     height: auto;
     background-color: var(--background-color);
 }
 
-.challenges-container .challenges-container--title{
+#challenges-container .challenges-container--title{
     margin: 36px 0;
     color: #fff;
     letter-spacing: 5px;
 }
 
-.challenges-container .card-container{
+#challenges-container .card-container{
     background-image: url(/assets/images/retos/ants.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.challenges-container .card-container--eagle{
+#challenges-container .card-container--eagle{
     background-image: url(/assets/images/retos/eagle.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.challenges-container .card-container:hover, .card-container--eagle:hover{
+#challenges-container .card-container:hover, .card-container--eagle:hover{
     background-image: none;
     background-color: #C9FF00;
 }
 
-.challenges-container .card{
+#challenges-container .card-container--eagle:hover{
+    background-image: none;
+    background-color: #C9FF00;
+}
+
+#challenges-container .card{
     border: none;
     margin-bottom: 60px;
     max-width: 451px;
@@ -153,18 +145,18 @@ body{
     background-color: transparent;
 }
 
-.challenges-container .card .card-body{
+#challenges-container .card .card-body{
     opacity: 0;
 }
 
-.challenges-container .card .card-body:hover{
+#challenges-container .card .card-body:hover{
     opacity: 1;
     display: flex;
     flex-direction: column;
     padding: 0;
 }
 
-.challenges-container .card .card-body .badges .bg-primary{
+#challenges-container .card .card-body .badges .bg-primary{
     background-color: #C9FF00!important;
     border: 1px solid var(--background-color);
     color: var(--background-color);
@@ -172,22 +164,22 @@ body{
     font-weight: bold;
 }
 
-.challenges-container .card .card-body h2{
+#challenges-container .card .card-body h2{
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: bold;
     color: var(--background-color);
 }
 
-.challenges-container .card .card-body p{
+#challenges-container .card .card-body p{
     margin-bottom: 32px;
 }
 
-.challenges-container .card .card-body .btn{
+#challenges-container .card .card-body .btn{
     color: var(--primary-color);
 }
 
-.challenges-container .card .card-body .btn-primary{
+#challenges-container .card .card-body .btn-primary{
     border-radius: 4px;
     background-color: var(--background-color);
     border-color: var(--background-color);
@@ -197,14 +189,14 @@ body{
     margin: 0 auto;
 }
 
-.challenges-container .card-body img{
+#challenges-container .card-body img{
     width: 50%;
     margin: auto;
 }
 /* challenges */
 
 /* date */
-.place-time-container{
+#place-time-container{
     background-image: url(/assets/images/date/bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,84 +205,84 @@ body{
     padding: 8px 60px 0;
 }
 
-.place-time-container .place-time--detail{
+#place-time-container .place-time--detail{
     margin: auto;
 }
 
-.place-time-container .place-time--detail small{
+#place-time-container .place-time--detail small{
     letter-spacing: 4px;
 }
 
-.place-time-container .place-time--detail small,h2{
+#place-time-container .place-time--detail small,h2{
     color: var(--primary-color);
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 16px;
 }
 
-.place-time-container .place-time--detail p{
+#place-time-container .place-time--detail p{
     color: #fff;
     font-weight: 300;
     margin-bottom: 16px;
 }
 
-.place-time-container .place-time--detail .btn{
+#place-time-container .place-time--detail .btn{
     color: var(--background-color)
 }
 
-.place-time-container .place-time--detail .btn-primary{
+#place-time-container .place-time--detail .btn-primary{
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.place-time-container img{
+#place-time-container img{
     max-width: 100%;
 }
 /* date */
 
 /* form */
 
-.contact-form-container{
+#contact-form-container{
 	width: 100%;
     height: 100vh;
     background-color: var(--background-color);
 }
 
-.contact-form-container .form-title-container{
+#contact-form-container .form-title-container{
     margin: 32px auto 0;
 }
 
-.contact-form-container .form-title-container small{
+#contact-form-container .form-title-container small{
     color: var(--primary-color);
     letter-spacing: 2px;
 }
 
-.contact-form-container .form-description-container{
+#contact-form-container .form-description-container{
     margin-bottom: 16px;
 }
 
-.contact-form-container .form-description-container p{
+#contact-form-container .form-description-container p{
     color: #fff;
     font-weight: 300;
 }
 
-.contact-form-container .form-container{
+#contact-form-container .form-container{
     background-color: #fff;
     padding: 24px;
     border-radius: 16px;
 }
 
-.contact-form-container .form-container .form-icon{
+#contact-form-container .form-container .form-icon{
     margin-bottom: 36px;
 }
 
-.contact-form-container .form-container .form-icon .form-icon--detail{
+#contact-form-container .form-container .form-icon .form-icon--detail{
     margin-left: 16px;
 }
 
-.contact-form-container .form-container .form-icon .form-icon--detail h2{
+#contact-form-container .form-container .form-icon .form-icon--detail h2{
     font-size: 1.4rem;
     line-height: 1.4rem;
     text-transform: none;
@@ -298,20 +290,20 @@ body{
     margin-bottom: 0;
 }
 
-.contact-form-container .form-container .form-icon .form-icon--detail small{
+#contact-form-container .form-container .form-icon .form-icon--detail small{
     color: #7C859B;
 }
 
-.contact-form-container .form-control{
+#contact-form-container .form-control{
     border: 1px solid #D8DCE6;
     background: #D8DCE64D;
 }
-.contact-form-container .btn{
+#contact-form-container .btn{
     color: var(--primary-color);
     padding: .375rem 1.90rem;
 }
 
-.contact-form-container .btn-primary{
+#contact-form-container .btn-primary{
     background-color: var(--background-color);
     border: var(--background-color);
 }
