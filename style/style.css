@@ -115,13 +115,13 @@ body{
 }
 
 #challenges-container .card-container{
-    background-image: url(/assets/images/retos/ants.jpeg);
+    background-image: url(../assets/images/retos/ants.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #challenges-container .card-container--eagle{
-    background-image: url(/assets/images/retos/eagle.jpeg);
+    background-image: url(../assets/images/retos/eagle.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -197,7 +197,7 @@ body{
 
 /* date */
 #place-time-container{
-    background-image: url(/assets/images/date/bg.jpeg);
+    background-image: url(../assets/images/date/bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
