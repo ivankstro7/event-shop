@@ -286,6 +286,23 @@ body{
     margin-bottom: 36px;
 }
 
+.contact-form-container .form-container .form-icon .form-icon--detail{
+    margin-left: 16px;
+}
+
+.contact-form-container .form-container .form-icon .form-icon--detail h2{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-transform: none;
+    color: var(--background-color);
+    margin-bottom: 0;
+}
+
+.contact-form-container .form-container .form-icon .form-icon--detail small{one;
+    color: #7C859B;
+}
+
+
 .contact-form-container .form-control{
     border: 1px solid #D8DCE6;
     background: #D8DCE64D 38%;
