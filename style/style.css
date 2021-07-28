@@ -254,7 +254,7 @@ body{
 
 .contact-form-container{
 	width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: var(--background-color);
 }
 
@@ -302,9 +302,17 @@ body{
     color: #7C859B;
 }
 
-
 .contact-form-container .form-control{
     border: 1px solid #D8DCE6;
     background: #D8DCE64D;
+}
+.contact-form-container .btn{
+    color: var(--primary-color);
+    padding: .375rem 1.90rem;
+}
+
+.contact-form-container .btn-primary{
+    background-color: var(--background-color);
+    border: var(--background-color);
 }
 /* form */
