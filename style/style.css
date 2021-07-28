@@ -80,6 +80,10 @@ body{
     left: 0;
 }
 
+.carrousel-container .carousel-caption h2{
+    color: #fff;
+}
+
 .carrousel-container .carousel-caption .btn {
     color: var(--primary-color);
 }
@@ -142,7 +146,7 @@ body{
 
 .challenges-container .card{
     border: none;
-    margin-bottom: 36px;
+    margin-bottom: 60px;
     max-width: 451px;
     height: 505px;
     padding: 36px 24px;
@@ -172,6 +176,7 @@ body{
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: bold;
+    color: var(--background-color);
 }
 
 .challenges-container .card .card-body p{
@@ -200,9 +205,12 @@ body{
 
 /* date */
 .place-time-container{
-    background-color: var(--background-color);
+    background-image: url(/assets/images/date/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: auto;
+    padding: 8px 60px 0;
 }
 
 .place-time-container .place-time--detail{
