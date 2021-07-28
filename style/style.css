@@ -298,13 +298,13 @@ body{
     margin-bottom: 0;
 }
 
-.contact-form-container .form-container .form-icon .form-icon--detail small{one;
+.contact-form-container .form-container .form-icon .form-icon--detail small{
     color: #7C859B;
 }
 
 
 .contact-form-container .form-control{
     border: 1px solid #D8DCE6;
-    background: #D8DCE64D 38%;
+    background: #D8DCE64D;
 }
 /* form */
