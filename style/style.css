@@ -111,7 +111,6 @@ body{
 /* carousel */
 
 /* challenges */
-
 .challenges-container{
     width: 100%;
     height: auto;
@@ -197,5 +196,50 @@ body{
     width: 50%;
     margin: auto;
 }
-
 /* challenges */
+
+/* date */
+.place-time-container{
+    background-color: var(--background-color);
+    width: 100%;
+    height: auto;
+}
+
+.place-time-container .place-time--detail{
+    margin: auto;
+}
+
+.place-time-container .place-time--detail small{
+    letter-spacing: 4px;
+}
+
+.place-time-container .place-time--detail small,h2{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.place-time-container .place-time--detail p{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.place-time-container .place-time--detail .btn{
+    color: var(--background-color)
+}
+
+.place-time-container .place-time--detail .btn-primary{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.place-time-container img{
+    max-width: 100%;
+}
+
+
+/* date */
