@@ -16,7 +16,7 @@ body{
 
 /* menu */
 .header{
-    height: 100vh;
+    min-height: 625px;
 }
 
 .header .navbar {
