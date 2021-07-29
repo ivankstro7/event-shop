@@ -15,10 +15,6 @@ body{
 }
 
 /* menu */
-.header{
-    min-height: 625px;
-}
-
 .header .navbar {
     margin-top: 24px;
     border-radius: 8px;
@@ -56,9 +52,6 @@ body{
 
 /* carousel */
 #carrousel-container{
-    position: absolute;
-    top: 0;
-    z-index: -1;
     width: 100%;
 }
 
@@ -91,12 +84,7 @@ body{
     margin-right: 8px;
 }
 
-#carrousel-container .carousel-inner{
-    height: 100vh;
-}
-
-#carrousel-container .carousel-inner img{
-    max-height: 100vh;
+#carrousel-container .carousel-inner img{    
     object-fit: cover;
 }
 /* carousel */
