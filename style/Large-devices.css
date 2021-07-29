@@ -1,0 +1,5 @@
+@media (min-width: 992px) {
+    #carrousel-container .carousel-caption {
+        padding-bottom: 5rem;
+    }
+}

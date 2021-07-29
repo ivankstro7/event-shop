@@ -1,0 +1,9 @@
+@media (min-width: 768px){    
+    #place-time-container{
+        padding: 32px 0 0;
+    }
+
+    #place-time-container .place-time--detail {
+        text-align: center;
+    }
+}
