@@ -61,7 +61,7 @@ body{
 }
 
 #carrousel-container .carousel-caption {
-    padding-bottom: 8rem;
+    padding-bottom: 13rem;
     left: 0;
 }
 
@@ -86,7 +86,6 @@ body{
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
-    margin-right: 8px;
 }
 
 #carrousel-container .carousel-inner img{    
