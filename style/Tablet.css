@@ -3,6 +3,10 @@
         padding: 32px 0 0;
     }
 
+    #carrousel-container .carousel-caption {
+        padding-bottom: 0;
+    }
+        
     #place-time-container .place-time--detail {
         text-align: center;
     }
