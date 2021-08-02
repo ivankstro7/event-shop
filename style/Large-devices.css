@@ -25,13 +25,13 @@
     }
 
     #challenges-container .card-container {
-        background-image: url(../assets/images/retos/ants.jpeg);
+        background-image: url(../assets/images/retos/ants.webp);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     #challenges-container .card-container--eagle{
-        background-image: url(../assets/images/retos/eagle.jpeg);
+        background-image: url(../assets/images/retos/eagle.webp);
         background-repeat: no-repeat;
         background-size: cover;
     }
