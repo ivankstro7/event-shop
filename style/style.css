@@ -34,7 +34,7 @@ body{
     width: 100%;
     padding: 24px;
     border-radius: 4px;
-    margin: 8px 0;
+    margin: 24px 0;
 }
 
 .header .navbar .container-fluid .navbar-collapse ul li{
@@ -85,8 +85,9 @@ body{
 }
 
 #carrousel-container .carousel-caption {
-    padding-bottom: 32rem;
+    margin: auto;
     left: 0;
+    right: 0;
 }
 
 #carrousel-container .carousel-caption h2{
@@ -350,10 +351,6 @@ body{
 
 /* tablet */
 @media (min-width: 768px){    
-    #carrousel-container .carousel-caption {
-        padding-bottom: 13rem;
-    }
-
     #challenges-container .card {
         margin-bottom: 48px;
     }
@@ -401,10 +398,6 @@ body{
         border-bottom: none;
     }
 
-    #carrousel-container .carousel-caption {
-        padding-bottom: 2rem;
-    }
-
     #challenges-container .card-container {
         background-image: url(../assets/images/retos/ants.webp);
         background-repeat: no-repeat;
@@ -445,10 +438,6 @@ body{
 
 /* X-large devices */
 @media (min-width: 1200px) {
-   
-    #carrousel-container .carousel-caption {
-        padding-bottom: 7rem;
-    }
 
     #carrousel-container .carousel-caption .carousel-btn-container{
         display: flex!important;
@@ -478,12 +467,3 @@ body{
     }
 }
 /* X-large devices */
-
-
-/* XX-large devices */
-@media (min-width: 1400px) {
-    #carrousel-container .carousel-caption {
-        padding-bottom: 10rem;
-    }
-}
-/* XX-large devices */
