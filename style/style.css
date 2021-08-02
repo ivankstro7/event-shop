@@ -51,7 +51,6 @@ body{
     width: 100%;
 }
 
-
 .header .navbar .container-fluid .navbar-brand{
     width: 69px;
     height: 40px;
@@ -88,6 +87,7 @@ body{
     margin: auto;
     left: 0;
     right: 0;
+    padding-bottom: 5rem;
 }
 
 #carrousel-container .carousel-caption h2{
@@ -351,6 +351,10 @@ body{
 
 /* tablet */
 @media (min-width: 768px){    
+    #carrousel-container .carousel-caption {
+        padding-bottom: 5rem;
+    }
+
     #challenges-container .card {
         margin-bottom: 48px;
     }
@@ -377,6 +381,10 @@ body{
 
 /* large devices */
 @media (min-width: 992px) {
+    #carrousel-container .carousel-caption {
+        padding-bottom: 0rem;
+    }
+
     .header{
         height: auto;
     }
@@ -438,6 +446,9 @@ body{
 
 /* X-large devices */
 @media (min-width: 1200px) {
+    #carrousel-container .carousel-caption {
+        padding-bottom: 5rem;
+    }
 
     #carrousel-container .carousel-caption .carousel-btn-container{
         display: flex!important;
