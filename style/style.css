@@ -355,6 +355,10 @@ body{
         padding-bottom: 5rem;
     }
 
+    #carrousel-container .carousel-caption .carousel-btn-container{
+        width: 100%;
+     }  
+
     #challenges-container .card {
         margin-bottom: 48px;
     }
