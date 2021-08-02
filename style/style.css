@@ -118,8 +118,14 @@ body{
     background-color: var(--primary-color);
 }
 
+#carrousel-container .carousel-inner .carousel-item{    
+    width: 100%;
+    height: auto;    
+}
+
 #carrousel-container .carousel-inner img{    
     object-fit: cover;
+    height: auto;
 }
 /* carousel */
 
@@ -340,3 +346,144 @@ body{
     background-color: #fff;
 }
 /* modal */
+
+
+/* tablet */
+@media (min-width: 768px){    
+    #carrousel-container .carousel-caption {
+        padding-bottom: 13rem;
+    }
+
+    #challenges-container .card {
+        margin-bottom: 48px;
+    }
+    
+    #challenges-container .card .card-body{
+        padding: 24px 16px;
+        height: 500px;
+    }
+
+    #place-time-container{
+        padding: 32px 0 0;
+    }
+        
+    #place-time-container .place-time--detail {
+        text-align: center;
+    }
+
+    .offset-md-10 {
+        margin-left: 81.55555%;
+    }
+}
+/* tablet */
+
+
+/* large devices */
+@media (min-width: 992px) {
+    .header{
+        height: auto;
+    }
+
+    .header .navbar {
+        margin-top: 24px;
+        border-radius: 8px;
+    }
+    .header .navbar .container-fluid .collapse {
+        background-color: transparent;
+        width: inherit;
+        padding: 0;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .header .navbar .container-fluid .navbar-collapse ul li{
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    #carrousel-container .carousel-caption {
+        padding-bottom: 2rem;
+    }
+
+    #challenges-container .card-container {
+        background-image: url(../assets/images/retos/ants.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #challenges-container .card-container--eagle{
+        background-image: url(../assets/images/retos/eagle.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #challenges-container .card-container:hover{
+        background-image: none;
+        background-color: #C9FF00;
+    }
+    
+    #challenges-container .card-container--eagle:hover{
+        background-image: none;
+        background-color: #C9FF00;
+    }
+
+    #challenges-container .card .card-body{
+        opacity: 0;
+    }
+    
+    #challenges-container .card .card-body:hover{
+        opacity: 1;
+    }   
+
+    #place-time-container .place-time--detail {
+        text-align: inherit;
+        margin: 10px auto;
+    }
+}
+/* large devices */
+
+
+/* X-large devices */
+@media (min-width: 1200px) {
+   
+    #carrousel-container .carousel-caption {
+        padding-bottom: 7rem;
+    }
+
+    #carrousel-container .carousel-caption .carousel-btn-container{
+        display: flex!important;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #carrousel-container .carousel-caption .carousel-btn-container .btn{
+        width: 180px;
+    }
+
+    #challenges-container .card .card-body {
+        padding: 24px 48px;
+        height: 550px;
+    }
+
+    #challenges-container .card .card-body h2 {
+        font-size: 2.4rem;
+    }
+
+    #challenges-container .card .card-body p {
+        font-size: 1.1rem;
+    }
+
+    #place-time-container .place-time--detail {
+        margin: 100px 0 0 110px;
+    }
+}
+/* X-large devices */
+
+
+/* XX-large devices */
+@media (min-width: 1400px) {
+    #carrousel-container .carousel-caption {
+        padding-bottom: 10rem;
+    }
+}
+/* XX-large devices */
