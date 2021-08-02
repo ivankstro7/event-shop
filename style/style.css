@@ -53,7 +53,8 @@ body{
 
 
 .header .navbar .container-fluid .navbar-brand{
-    width: 75px;
+    width: 69px;
+    height: 40px;
 }
 
 .header .navbar .container-fluid .navbar-brand img{
@@ -203,7 +204,7 @@ body{
 
 /* date */
 #place-time-container{
-    background-image: url(../assets/images/date/bg.jpeg);
+    background-image: url(../assets/images/date/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
